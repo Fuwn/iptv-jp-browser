@@ -86,7 +86,7 @@
 		border-radius: 2.5%;
 		max-width: 100%;
 		max-height: 75%;
-		padding-bottom: 1rem;
+		margin-bottom: 1rem;
 	}
 
 	.filter {
