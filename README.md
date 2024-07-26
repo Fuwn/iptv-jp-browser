@@ -7,6 +7,8 @@ Browse the latest Japanese IPTV channels and watch them in your browser
 
 # Usage
 
+Visit <https://iptv-jp.fuwn.me/> on any platform to get started.
+
 ## Developing
 
 ```bash
