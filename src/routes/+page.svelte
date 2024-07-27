@@ -37,7 +37,7 @@
 					target="_blank"
 					class="channel-title-primary"
 				>
-					{item.tvgId} ({item.groupTitle})
+					[{item.groupTitle}] {item.name}
 				</a>
 
 				<br />
