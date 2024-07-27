@@ -92,7 +92,7 @@
 	.channel-icon {
 		border-radius: 2.5%;
 		max-width: 100%;
-		max-height: 75%;
+		max-height: 100%;
 		margin-bottom: 1rem;
 	}
 
