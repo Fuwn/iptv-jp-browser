@@ -63,6 +63,11 @@
 </div>
 
 <style>
+	:root {
+		--border-radius: 8px;
+		--space: 1rem;
+	}
+
 	a {
 		text-decoration: none;
 		color: #c6c6c6;
@@ -74,13 +79,13 @@
 	}
 
 	.channels {
-		padding: 0.5rem;
+		padding: calc(var(--space) / 2);
 	}
 
 	.channel-container {
 		background: #1d1d1d;
-		padding: 1rem;
-		border-radius: 2.5%;
+		padding: var(--space);
+		border-radius: var(--border-radius);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -90,18 +95,18 @@
 	}
 
 	.channel-icon {
-		border-radius: 2.5%;
+		border-radius: var(--border-radius);
 		max-width: 100%;
 		max-height: 100%;
-		margin-bottom: 1rem;
+		margin-bottom: var(--space);
 	}
 
 	.filter {
-		width: calc(100% - 3rem);
-		padding: 1rem;
-		border-radius: 7px;
+		width: calc(100% - (var(--space) * 3));
+		padding: var(--space);
+		border-radius: var(--border-radius);
 		border: none;
-		margin: 0.5rem;
+		margin: calc(var(--space) / 2);
 		background: #242424;
 		border: none;
 		color: #fff;
