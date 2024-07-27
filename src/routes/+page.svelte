@@ -21,7 +21,13 @@
 
 <div class="channels">
 	<Masonry
-		items={channels.filter((channel) => channel.tvgId.toLowerCase().includes(filter.toLowerCase()))}
+		items={channels.filter((channel) =>
+			(
+				channel.name.toLowerCase() +
+				channel.groupTitle.toLowerCase() +
+				channel.tvgId.toLowerCase()
+			).includes(filter.toLowerCase())
+		)}
 		minColWidth={(browser ? window.innerWidth < 768 : false) ? 150 : 200}
 		gap={15}
 		let:item
