@@ -75,7 +75,12 @@
 	}
 
 	a:hover {
-		color: #2a6496;
+		color: #ffb600;
+	}
+
+	::selection {
+		background: #ffb600;
+		color: #fff;
 	}
 
 	.channels {
