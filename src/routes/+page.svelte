@@ -52,6 +52,7 @@
 					href={'#'}
 					on:click={() => {
 						navigator.clipboard.writeText(item.url);
+						alert('Copied M3U8 URL to clipboard!');
 					}}
 				>
 					Copy M3U8 URL
