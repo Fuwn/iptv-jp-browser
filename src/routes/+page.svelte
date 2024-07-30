@@ -131,5 +131,6 @@
 	:global(body) {
 		background-color: #121212;
 		color: #fff;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 </style>
